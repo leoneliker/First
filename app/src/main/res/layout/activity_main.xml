@@ -46,7 +46,26 @@
         app:layout_constraintStart_toStartOf="@id/leftGuide"
         app:layout_constraintEnd_toEndOf="@id/rightGuide"
         />
+    <Button
+        android:id="@+id/login"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        app:layout_constraintStart_toStartOf="@id/leftGuide"
+        app:layout_constraintTop_toBottomOf="@id/password">
 
+    </Button>
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="Cancel"
+        app:layout_constraintEnd_toStartOf="@id/rightGuide"
+        app:layout_constraintStart_toEndOf="@id/login"
+        app:layout_constraintTop_toTopOf="@id/login">
+    </Button>
 
     <androidx.constraintlayout.widget.Guideline
         android:layout_width="match_parent"
