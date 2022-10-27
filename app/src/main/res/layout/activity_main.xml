@@ -55,6 +55,7 @@
         app:layout_constraintStart_toStartOf="@id/leftGuide"
         app:layout_constraintEnd_toEndOf="@id/rightGuide"
         app:passwordToggleEnabled="true"
+        app:startIconDrawable="@drawable/ic_triste"
         >
         <EditText
             android:layout_width="match_parent"
