@@ -51,24 +51,20 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="Login"
-        app:layout_constraintTop_toBottomOf="@id/password"
         app:layout_constraintStart_toStartOf="@id/leftGuide"
-        android:backgroundTint="@color/purple_700">
+        app:layout_constraintTop_toBottomOf="@id/password">
 
     </Button>
 
     <Button
+        android:id="@+id/cancel"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Cancel"
-        android:id="@+id/cancel"
         android:layout_marginLeft="8dp"
-        app:layout_constraintEnd_toEndOf="@id/rightGuide"
-
-        app:layout_constraintTop_toTopOf="@+id/login"
-        android:backgroundTint="@color/purple_700">
-
-
+        android:text="Cancel"
+        app:layout_constraintEnd_toStartOf="@id/rightGuide"
+        app:layout_constraintStart_toEndOf="@id/login"
+        app:layout_constraintTop_toTopOf="@id/login">
     </Button>
 
     <androidx.constraintlayout.widget.Guideline
