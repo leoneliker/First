@@ -27,7 +27,6 @@
         android:layout_height="wrap_content"
         android:id="@+id/TILusername"
         android:background="@color/white"
-        android:hint="Username"
         app:layout_constraintStart_toStartOf="@id/leftGuide"
         app:layout_constraintEnd_toEndOf="@id/rightGuide"
         app:layout_constraintHorizontal_bias="0.496"
