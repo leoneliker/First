@@ -25,7 +25,7 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="0dp"
-        android:layout_height="100px"
+        android:layout_height="wrap_content"
         android:id="@+id/TILusername"
         android:background="#DFDFDF"
         app:layout_constraintStart_toStartOf="@id/leftGuide"
@@ -46,7 +46,7 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="0dp"
-        android:layout_height="100px"
+        android:layout_height="wrap_content"
         android:id="@+id/TILmail"
         android:background="#DFDFDF"
         android:layout_marginTop="3dp"
@@ -67,7 +67,7 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="0dp"
-        android:layout_height="100px"
+        android:layout_height="wrap_content"
         android:id="@+id/TILpassword"
         android:background="#DFDFDF"
         android:layout_marginTop="3dp"
@@ -89,7 +89,7 @@
     />
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="0dp"
-        android:layout_height="100px"
+        android:layout_height="wrap_content"
         android:id="@+id/TILpasswordC"
         android:background="#DFDFDF"
         android:layout_marginTop="3dp"
@@ -101,7 +101,7 @@
         >
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:hint="Confirmar contraseña"
             android:inputType="textPassword"
             >
