@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@color/teal_700">
+    android:background="#283593">
 
 
     <ImageView
@@ -17,6 +17,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:src="@drawable/_gato"
         android:id="@+id/gato"
+
         >
 
     </ImageView>
@@ -26,7 +27,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:id="@+id/TILusername"
-        android:background="@color/white"
+        android:background="#DFDFDF"
         app:layout_constraintStart_toStartOf="@id/leftGuide"
         app:layout_constraintEnd_toEndOf="@id/rightGuide"
         app:layout_constraintHorizontal_bias="0.496"
@@ -38,7 +39,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/white"
+            android:background="#DFDFDF"
             android:hint="Username">
 
         </EditText>
@@ -49,7 +50,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:id="@+id/TILpassword"
-        android:background="@color/white"
+        android:background="#DFDFDF"
         android:layout_marginTop="3dp"
         android:padding="8dp"
         app:layout_constraintTop_toBottomOf="@id/TILusername"
@@ -61,7 +62,6 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/white"
             android:hint="Password"
             android:inputType="textPassword"
             >
@@ -70,12 +70,10 @@
         />
     <Button
         android:id="@+id/login"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
         android:text="Login"
         app:layout_constraintStart_toStartOf="@id/leftGuide"
         app:layout_constraintTop_toBottomOf="@id/TILpassword"
-        android:backgroundTint="@color/purple_700">
+        style="@style/Boton">
 
     </Button>
 
@@ -88,7 +86,7 @@
         app:layout_constraintEnd_toStartOf="@id/rightGuide"
         app:layout_constraintStart_toEndOf="@id/login"
         app:layout_constraintTop_toTopOf="@id/login"
-        android:backgroundTint="@color/purple_700"
+        android:backgroundTint="#5F5FC4"
         >
     </Button>
 
