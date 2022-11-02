@@ -79,14 +79,12 @@
 
     <Button
         android:id="@+id/cancel"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
         android:text="Cancel"
         app:layout_constraintEnd_toStartOf="@id/rightGuide"
         app:layout_constraintStart_toEndOf="@id/login"
         app:layout_constraintTop_toTopOf="@id/login"
-        android:backgroundTint="#5F5FC4"
+        style="@style/Boton"
+        android:layout_marginLeft="8dp"
         >
     </Button>
 
