@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Fundamentals</string>
+    <string name="singup">Have you got an account? Sing up <a href="http://example.com/">here</a></string>
 </resources>
