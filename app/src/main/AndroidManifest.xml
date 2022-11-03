@@ -10,7 +10,7 @@
         android:label="@string/app_name"
         android:roundIcon="@drawable/_gato"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Fundamentals"
+        android:theme="@style/MyTheme"
         tools:targetApi="31">
         <activity
             android:name=".SingUpActivity"
@@ -23,7 +23,7 @@
         <activity
             android:name=".LoginActivity"
             android:exported="true"
-            android:theme="@style/MyTheme">
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
