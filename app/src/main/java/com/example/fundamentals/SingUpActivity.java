@@ -24,7 +24,10 @@ public class SingUpActivity extends AppCompatActivity {
         });
     }
     public void volver(){
-        onBackPressed();
+        Intent intent =new Intent(this, LoginActivity.class);
+        intent.putExtra(TEXTO, "Limpiando la pagina 1");
+        setResult(CODIGO_NUEVO,intent);
+        SingUpActivity.super.onBackPressed();
     }
 
 }

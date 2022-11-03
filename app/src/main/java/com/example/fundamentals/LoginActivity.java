@@ -1,5 +1,9 @@
 package com.example.fundamentals;
 
+import androidx.activity.result.ActivityResult;
+import androidx.activity.result.ActivityResultCallback;
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -37,11 +41,18 @@ public class LoginActivity extends AppCompatActivity {
 
     public void paginaSiguiente(){
         Intent intent = new Intent(this, SingUpActivity.class); //This llama a la propia magina y se crea la otra
-        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
-        startActivity(intent);
+        activityResult.launch(intent);
 
 
     }
+    ActivityResultLauncher<Intent> activityResult = registerForActivityResult(
+            new ActivityResultContracts.StartActivityForResult(),
+            new ActivityResultCallback<ActivityResult>() {
+                @Override
+                public void onActivityResult(ActivityResult result) {
+                    Log.d(TAG, ""+result.getResultCode());
+                                    }
+            }
+    );
 
 }
