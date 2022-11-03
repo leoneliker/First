@@ -37,9 +37,10 @@ public class LoginActivity extends AppCompatActivity {
 
     public void paginaSiguiente(){
         Intent intent = new Intent(this, SingUpActivity.class); //This llama a la propia magina y se crea la otra
-        startActivity(intent);
-
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(intent);
+
+
     }
 }
