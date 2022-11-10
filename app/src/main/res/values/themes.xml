@@ -16,7 +16,7 @@
 
 
     <style name="MyTheme" parent="Theme.Fundamentals">
-        <item name="android:backgroundTint">#B66161</item>
+
     </style>
 
     <style name="MyTheme.NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">

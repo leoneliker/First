@@ -5,17 +5,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LoginActivity"
-    android:background="#283593">
+    android:background="@drawable/gradient">
 
-
+    <ImageView
+        android:id="@+id/girl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        />
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginTop="128dp"
+        android:layout_marginTop="228dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:src="@drawable/_gato"
         android:id="@+id/gato"
 
         >
@@ -30,12 +34,10 @@
         android:background="#DFDFDF"
         app:layout_constraintStart_toStartOf="@id/leftGuide"
         app:layout_constraintEnd_toEndOf="@id/rightGuide"
-        app:layout_constraintHorizontal_bias="0.496"
-        android:layout_marginTop="8dp"
-        android:padding="8dp"
+        android:layout_marginTop="28dp"
         app:layout_constraintTop_toBottomOf="@id/gato"
-        app:startIconDrawable="@drawable/ic_cohete"
-        >
+        android:padding="8dp"
+        app:startIconDrawable="@drawable/ic_cohete">
         <EditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
