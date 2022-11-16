@@ -47,7 +47,7 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
-
+/*
 //    Glide for loading girls
         ImageView mGirl = findViewById(R.id.logosplash);
 
@@ -59,7 +59,7 @@ public class LoginActivity extends AppCompatActivity {
 //                .centerCrop()
                   .placeholder(new ColorDrawable(this.getResources().getColor(R.color.purple_200)))
 //                .circleCrop()
-                .into(mGirl);
+                .into(mGirl);*/
 
         ImageView mMessi = findViewById(R.id.gato);
 
