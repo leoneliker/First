@@ -2,10 +2,10 @@
 <cycleInterpolator
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:cycles="500">
-    <set>
         <rotate
-            android
-            />
-    </set>
+            android:fromDegrees="0"
+            android:toDegrees="360"
+            android:pivotX="50%"
+            android:pivotY="50%"/>
 
 </cycleInterpolator>
