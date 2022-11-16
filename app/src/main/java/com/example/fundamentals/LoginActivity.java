@@ -9,18 +9,14 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 
 import android.content.Intent;
-import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
-
-import org.w3c.dom.Text;
 
 public class LoginActivity extends AppCompatActivity {
     Button boton;
@@ -61,7 +57,7 @@ public class LoginActivity extends AppCompatActivity {
 //                .circleCrop()
                 .into(mGirl);*/
 
-        ImageView mMessi = findViewById(R.id.gato);
+        ImageView mMessi = findViewById(R.id.icono);
 
         Glide.with(this)
                 .load(R.drawable.messi)
@@ -72,7 +68,7 @@ public class LoginActivity extends AppCompatActivity {
                 .circleCrop()
                 .into(mMessi);
 
-        ImageView thunder = findViewById(R.id.gato);
+        ImageView thunder = findViewById(R.id.icono);
         Animation myanim = AnimationUtils.loadAnimation(this, R.anim.fadein);
         thunder.startAnimation(myanim);
 
