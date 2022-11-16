@@ -86,9 +86,9 @@
         app:layout_constraintEnd_toStartOf="@id/rightGuide"
         app:layout_constraintStart_toEndOf="@id/login"
         app:layout_constraintTop_toTopOf="@id/login"
-        style="@style/Boton"
+        style="@style/buttonoutlined"
+
         android:layout_marginLeft="8dp"
-        android:backgroundTint="@color/button_selector"
         >
     </Button>
 
