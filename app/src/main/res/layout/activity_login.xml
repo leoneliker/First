@@ -8,11 +8,12 @@
     android:background="@drawable/gradient">
 
     <ImageView
-        android:id="@+id/girl"
+        android:id="@+id/logosplash"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="fitXY"
         />
+
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
