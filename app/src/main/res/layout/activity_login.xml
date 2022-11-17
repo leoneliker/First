@@ -24,7 +24,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:id="@+id/icono"
-        android:padding="5dp"
+        android:padding="3dp"
 
 
         >
