@@ -19,6 +19,12 @@
         android:text="First"
         android:textColor="@android:color/white"
         android:textSize="50sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/leftGuide"
+        app:layout_constraintEnd_toEndOf="@id/rightGuide"
+        android:layout_marginTop="150dp"
+        android:paddingRight="40dp"
+        android:paddingLeft="40dp"
         >
 
     </TextView>
