@@ -36,7 +36,6 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:id="@+id/TILusername"
-        android:background="#DFDFDF"
         app:layout_constraintStart_toStartOf="@id/leftGuide"
         app:layout_constraintEnd_toEndOf="@id/rightGuide"
         android:layout_marginTop="28dp"
@@ -46,8 +45,8 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-
-            android:hint="Username">
+            android:hint="Username"
+            >
 
         </EditText>
     </com.google.android.material.textfield.TextInputLayout>
@@ -57,7 +56,6 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:id="@+id/TILpassword"
-        android:background="#DFDFDF"
         android:layout_marginTop="3dp"
         android:padding="8dp"
         app:layout_constraintTop_toBottomOf="@id/TILusername"
