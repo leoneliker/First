@@ -18,7 +18,6 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="100dp"
-        android:background="@drawable/circulo"
         app:circularflow_radiusInDP="50"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
