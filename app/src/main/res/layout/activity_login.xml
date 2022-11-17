@@ -74,7 +74,7 @@
         app:layout_constraintStart_toStartOf="@id/leftGuide"
         app:layout_constraintEnd_toStartOf="@id/cancel"
         app:layout_constraintTop_toBottomOf="@id/TILpassword"
-        style="@style/Boton"
+        style="@style/buttonoutlined"
         android:layout_marginRight="8dp"
         android:backgroundTint="@color/button_selector">
 
@@ -86,7 +86,7 @@
         app:layout_constraintEnd_toStartOf="@id/rightGuide"
         app:layout_constraintTop_toTopOf="@id/login"
         style="@style/buttonoutlined"
-
+        android:backgroundTint="@color/button_selector"
         android:layout_marginLeft="8dp"
         >
     </Button>
