@@ -9,17 +9,20 @@ import android.os.Handler;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+import android.widget.TextView;
+
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 import com.example.fundamentals.R;
 
 public class Splash extends AppCompatActivity {
-
+    TextView texto;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
         openApp();
+        texto = findViewById(R.id.first);
 
         ImageView mfondo = findViewById(R.id.fondo);
         Glide.with(this)
@@ -29,6 +32,9 @@ public class Splash extends AppCompatActivity {
                 .into(mfondo);
         Animation myanim = AnimationUtils.loadAnimation(this, R.anim.fadein);
         mfondo.startAnimation(myanim);
+
+        Animation myanim2 = AnimationUtils.loadAnimation(this, R.anim.desaparecer);
+        texto.startAnimation(myanim2);
 
     }
 
