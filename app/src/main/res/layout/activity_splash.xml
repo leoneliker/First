@@ -13,29 +13,28 @@
         android:scaleType="fitXY"
         />
 
-    <ImageView
-        android:id="@+id/logosplash"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="420dp"
-        android:src="@drawable/messi"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-
-    </ImageView>
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="FiRST"
+        android:text="First"
         android:textColor="@android:color/white"
         android:textSize="50sp"
-        app:layout_constraintEnd_toEndOf="@id/logosplash"
-        app:layout_constraintStart_toStartOf="@id/logosplash"
-        app:layout_constraintTop_toBottomOf="@id/logosplash">
+        >
 
     </TextView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/leftGuide"
+        app:layout_constraintGuide_percent="0.2"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/rightGuide"
+        app:layout_constraintGuide_percent="0.8"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
