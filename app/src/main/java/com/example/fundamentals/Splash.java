@@ -27,6 +27,8 @@ public class Splash extends AppCompatActivity {
                 .transition(DrawableTransitionOptions.withCrossFade(100))
                 .placeholder(new ColorDrawable(this.getResources().getColor(R.color.purple_200)))
                 .into(mfondo);
+        Animation myanim = AnimationUtils.loadAnimation(this, R.anim.fadein);
+        mfondo.startAnimation(myanim);
 
     }
 
