@@ -33,8 +33,11 @@ public class Splash extends AppCompatActivity {
         Animation myanim = AnimationUtils.loadAnimation(this, R.anim.fadein);
         mfondo.startAnimation(myanim);
 
+
+        texto.setText("First");
         Animation myanim2 = AnimationUtils.loadAnimation(this, R.anim.desaparecer);
         texto.startAnimation(myanim2);
+
 
     }
 
