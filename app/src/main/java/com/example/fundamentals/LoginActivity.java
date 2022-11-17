@@ -69,7 +69,7 @@ public class LoginActivity extends AppCompatActivity {
                 .into(mMessi);
 
         ImageView thunder = findViewById(R.id.icono);
-        Animation myanim = AnimationUtils.loadAnimation(this, R.anim.fadein);
+        Animation myanim = AnimationUtils.loadAnimation(this, R.anim.zoom);
         thunder.startAnimation(myanim);
 
 
