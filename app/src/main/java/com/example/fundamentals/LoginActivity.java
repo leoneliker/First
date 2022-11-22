@@ -36,7 +36,12 @@ public class LoginActivity extends AppCompatActivity {
 
         
 
-        
+        login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mainApp();
+            }
+        });
         
         text.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -88,6 +93,12 @@ public class LoginActivity extends AppCompatActivity {
 
     public void paginaSiguiente(){
         Intent intent = new Intent(this, SingUpActivity.class); //This llama a la propia magina y se crea la otra
+        activityResult.launch(intent);
+
+
+    }
+    public void mainApp(){
+        Intent intent = new Intent(this, Main.class); //This llama a la propia magina y se crea la otra
         activityResult.launch(intent);
 
 
