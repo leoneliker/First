@@ -23,7 +23,8 @@
         </activity>
         <activity
             android:name=".Splash"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/MyTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -44,7 +45,8 @@
         </activity>
         <activity
             android:name=".LoginActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/MyTheme.NoActionBar">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
