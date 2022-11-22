@@ -21,6 +21,7 @@ import android.widget.TextView;
 public class LoginActivity extends AppCompatActivity {
     Button boton;
     TextView text;
+    Button login;
     static String MESSAGE_NOMBRE, TAG;
 
 
@@ -30,6 +31,7 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         boton=findViewById(R.id.login);
         text=findViewById(R.id.SingIn);
+        login=findViewById(R.id.login);
 
 
         
