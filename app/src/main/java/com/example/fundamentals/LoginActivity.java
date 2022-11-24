@@ -20,6 +20,7 @@ import android.widget.TextView;
 
 public class LoginActivity extends AppCompatActivity {
     Button boton;
+    Button botonS;
     TextView text;
     Button login;
     static String MESSAGE_NOMBRE, TAG;
@@ -30,10 +31,16 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         boton=findViewById(R.id.login);
+        botonS=findViewById(R.id.salir);
         text=findViewById(R.id.SingIn);
         login=findViewById(R.id.login);
 
-
+        botonS.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                salir();
+            }
+        });
         
 
         login.setOnClickListener(new View.OnClickListener() {
@@ -88,7 +95,11 @@ public class LoginActivity extends AppCompatActivity {
 
     }
 
+    public void salir(){
+        System.exit(0);
 
+
+    }
 
 
     public void paginaSiguiente(){
@@ -100,7 +111,6 @@ public class LoginActivity extends AppCompatActivity {
     public void mainApp(){
         Intent intent = new Intent(this, Main.class); //This llama a la propia magina y se crea la otra
         activityResult.launch(intent);
-
 
     }
     ActivityResultLauncher<Intent> activityResult = registerForActivityResult(

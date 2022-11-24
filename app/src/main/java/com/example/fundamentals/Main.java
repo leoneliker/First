@@ -4,13 +4,18 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
+import android.annotation.SuppressLint;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.ContextMenu;
 import android.view.MenuItem;
 import android.view.View;
 import android.webkit.WebView;
+import android.widget.Button;
 import android.widget.Toast;
 
+import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.snackbar.Snackbar;
 
 public class Main extends AppCompatActivity {
@@ -20,7 +25,6 @@ public class Main extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         swipeLayout=(SwipeRefreshLayout) findViewById(R.id.myswipe);
         swipeLayout.setOnRefreshListener(mOnRefreshListener);
 
@@ -33,6 +37,7 @@ public class Main extends AppCompatActivity {
         miVisorWeb.getSettings().setBuiltInZoomControls(true);
         miVisorWeb.loadUrl("https://thispersondoesnotexist.com");
     }
+
 
 
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo){

@@ -101,6 +101,17 @@
         android:text="@string/singup"
         android:textColor="#ffffff"
         />
+    <Button
+        android:id="@+id/salir"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1530px"
+        style="@style/buttonoutlined"
+        android:backgroundTint="@color/button_selector"
+        android:text="Salir"/>
 
 
 
