@@ -21,6 +21,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.fundamentals.LoginActivity" />
         </activity>
+
         <activity
             android:name=".Splash"
             android:exported="true"
@@ -35,6 +36,7 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+
         <activity
             android:name=".SingUpActivity"
             android:exported="false"
@@ -43,6 +45,7 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+
         <activity
             android:name=".LoginActivity"
             android:exported="true"

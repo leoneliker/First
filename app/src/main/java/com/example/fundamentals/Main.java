@@ -21,7 +21,7 @@ public class Main extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        swipeLayout = (SwipeRefreshLayout) findViewById(R.id.myswipe);
+        swipeLayout=(SwipeRefreshLayout) findViewById(R.id.myswipe);
         swipeLayout.setOnRefreshListener(mOnRefreshListener);
 
 
