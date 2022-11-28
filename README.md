@@ -11,7 +11,8 @@
 ##### Imagen apareciendo
 ![Imagen apareciendo](https://github.com/leoneliker/First/blob/master/app/src/main/res/Imagenes/img_1.png)
 
-##Cuando termine la pantalla de carga, se iniciará directamente el login de la aplicación
+## Cuando termine la pantalla de carga, se iniciará directamente el login de la aplicación
+##
 [Login Java](https://github.com/leoneliker/First/blob/master/app/src/main/java/com/example/fundamentals/LoginActivity.java)
 [Login Xml](https://github.com/leoneliker/First/blob/master/app/src/main/res/layout/activity_login.xml)
 
@@ -46,5 +47,22 @@
 [Main Xml](https://github.com/leoneliker/First/blob/master/app/src/main/res/layout/activity_main.xml)
 
 
+## Main activity
+## Al hacer click en login, nos encontramos la funcion principal de la app, la cual carga un image view desde internet, en este caso una foto de una persona aleatoria gracias a [ThisPersonDoesntExist](https://thispersondoesnotexist.com/)
+![Main](https://github.com/leoneliker/First/blob/master/app/src/main/res/Imagenes/img_11.png)
+
+##### Adicionalmente tenemos varias funciones
+##### La primera es la flecha de la toolbar, que nos permite volver atras
+![Flecha](https://github.com/leoneliker/First/blob/master/app/src/main/res/Imagenes/img_12.png)
+
+##### Si hacemos scroll hacia abajo, se recarga la pagina y sale otra imagen nueva
+![Recarga](https://github.com/leoneliker/First/blob/master/app/src/main/res/Imagenes/img_13.png)
+
+##### Si mantenemos pulsado en la imagen, nos abrira un pequeño menu donde podremos copiar la imagen o descargarla
+![Menu](https://github.com/leoneliker/First/blob/master/app/src/main/res/Imagenes/img_14.png)
+
+##### Adicionalmente, si elegimos la opción de copiar, saldra un "snackbar" diciendo si queremos revertir la accion
+![Copiar](https://github.com/leoneliker/First/blob/master/app/src/main/res/Imagenes/img_15.png)
 
 
+##### Para terminar, comentar que cuando se realiza la descarga o la recarga de la imagen, sale un "Toast abajo"

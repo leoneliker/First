@@ -52,7 +52,7 @@ public class Main extends AppCompatActivity {
                 final ConstraintLayout mLayout = findViewById(R.id.myMainConstraint);
 
                 Snackbar snackbar = Snackbar
-                        .make(mLayout, "fancy a Snack while you refresh?", Snackbar.LENGTH_LONG)
+                        .make(mLayout, "Imagen copiada con exito", Snackbar.LENGTH_LONG)
                         .setAction("UNDO", new View.OnClickListener() {
                             @Override
                             public void onClick(View view) {
