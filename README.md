@@ -66,3 +66,12 @@
 
 
 ##### Para terminar, comentar que cuando se realiza la descarga o la recarga de la imagen, sale un "Toast abajo"
+
+
+
+# Funcionalidad extra
+## La app se puede utilizar en horizontal
+![Splash Land](https://github.com/leoneliker/First/blob/master/app/src/main/res/Imagenes/img_16.png)
+![Login Land](https://github.com/leoneliker/First/blob/master/app/src/main/res/Imagenes/img_17.png)
+![SingUp Land](https://github.com/leoneliker/First/blob/master/app/src/main/res/Imagenes/img_18.png)
+![Main Land](https://github.com/leoneliker/First/blob/master/app/src/main/res/Imagenes/img_19.png)
