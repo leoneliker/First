@@ -75,3 +75,30 @@
 ![Login Land](https://github.com/leoneliker/First/blob/master/app/src/main/res/Imagenes/img_17.png)
 ![SingUp Land](https://github.com/leoneliker/First/blob/master/app/src/main/res/Imagenes/img_18.png)
 ![Main Land](https://github.com/leoneliker/First/blob/master/app/src/main/res/Imagenes/img_19.png)
+
+
+
+
+
+# Se han realizado multiples cambios en la aplicación
+## Cambio en el fondo y los colores principales
+
+##### Ajustado el gradiente en el fondo del login y el sing up
+![Gradiente_login](https://github.com/leoneliker/First/blob/master/app/src/main/res/Imagenes/img_20.png)
+![Gradiente singup](https://github.com/leoneliker/First/blob/master/app/src/main/res/Imagenes/img_21.png)
+
+## Cambios en el sing up y 
+##### Hemos hecho cambios en la paleta de colores, por eso, se puede apreciar claramente que la app bar en el singup y main, ya no es azul:
+![Colores app bar](https://github.com/leoneliker/First/blob/master/app/src/main/res/Imagenes/img_22.png)
+
+##### Para ver la nueva paleta, dirigete aqui: 
+[Colores Xml](https://github.com/leoneliker/First/blob/master/app/src/main/res/values/colors.xml)
+
+##### En adicion a los colores, se ha añadido un modo oscuro
+[Colores oscuro Xml](https://github.com/leoneliker/First/blob/master/app/src/main/res/values-night/colors.xml)
+![Colores oscuro](https://github.com/leoneliker/First/blob/master/app/src/main/res/Imagenes/img_23.png)
+![Colores oscuro](https://github.com/leoneliker/First/blob/master/app/src/main/res/Imagenes/img_24.png)
+
+
+## Cambios en el idioma
+
