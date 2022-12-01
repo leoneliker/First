@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LoginActivity"
-    android:background="#283593">
+    android:background="@drawable/gradient">
 
 
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginTop="128dp"
+        android:layout_marginTop="50dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -27,7 +27,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:id="@+id/TILusername"
-        android:background="#DFDFDF"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         app:layout_constraintStart_toStartOf="@id/leftGuide"
         app:layout_constraintEnd_toEndOf="@id/rightGuide"
         app:layout_constraintHorizontal_bias="0.496"
@@ -38,7 +38,6 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#DFDFDF"
             android:hint="@string/usuario">
 
         </EditText>
@@ -48,7 +47,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:id="@+id/TILmail"
-        android:background="#DFDFDF"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_marginTop="3dp"
         android:padding="8dp"
         app:layout_constraintTop_toBottomOf="@id/TILusername"
@@ -69,7 +68,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:id="@+id/TILpassword"
-        android:background="#DFDFDF"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_marginTop="3dp"
         android:padding="8dp"
         app:layout_constraintTop_toBottomOf="@id/TILmail"
@@ -91,7 +90,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:id="@+id/TILpasswordC"
-        android:background="#DFDFDF"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_marginTop="3dp"
         android:padding="8dp"
         app:layout_constraintTop_toBottomOf="@id/TILpassword"
@@ -112,8 +111,8 @@
         android:text="Login"
         app:layout_constraintStart_toStartOf="@id/leftGuide"
         app:layout_constraintTop_toBottomOf="@id/TILpasswordC"
-        android:backgroundTint="@color/button_selector"
-        style="@style/Boton">
+        style="@style/buttonoutlined"
+        android:backgroundTint="@color/button_selector">
 
     </Button>
 
@@ -123,8 +122,8 @@
         app:layout_constraintEnd_toStartOf="@id/rightGuide"
         app:layout_constraintStart_toEndOf="@id/login"
         app:layout_constraintTop_toTopOf="@id/login"
+        style="@style/buttonoutlined"
         android:backgroundTint="@color/button_selector"
-        style="@style/Boton"
         android:layout_marginLeft="8dp"
         >
     </Button>

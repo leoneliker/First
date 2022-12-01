@@ -39,7 +39,7 @@
         <activity
             android:name=".SingUpActivity"
             android:exported="false"
-            android:theme="@style/MyTheme.NoActionBar">
+            android:theme="@style/MyTheme">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
