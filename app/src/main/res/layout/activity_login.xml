@@ -40,7 +40,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="Username"
+            android:hint="@string/usuario"
             >
 
         </EditText>
@@ -62,7 +62,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="Password"
+            android:hint="@string/pass"
             android:inputType="textPassword"
             >
         </EditText>

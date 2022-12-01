@@ -20,7 +20,6 @@
     </style>
 
     <style name="MyTheme.NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="android:backgroundTint">#5772C6</item>
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
