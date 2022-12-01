@@ -102,3 +102,9 @@
 
 ## Cambios en el idioma
 
+##### Se ha agregado de forma automatica la traducción al español del login y del sing up
+##### Antiguo login en ingles
+![Login](https://github.com/leoneliker/First/blob/master/app/src/main/res/Imagenes/img_2.png)
+##### Nuevo login en español
+![Login español](https://github.com/leoneliker/First/blob/master/app/src/main/res/Imagenes/img_20.png)
+
