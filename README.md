@@ -96,13 +96,16 @@
 
 ##### En adicion a los colores, se ha añadido un modo oscuro
 [Colores oscuro Xml](https://github.com/leoneliker/First/blob/master/app/src/main/res/values-night/colors.xml)
+
+#####     
+
 ![Colores oscuro](https://github.com/leoneliker/First/blob/master/app/src/main/res/Imagenes/img_23.png)
 ![Colores oscuro](https://github.com/leoneliker/First/blob/master/app/src/main/res/Imagenes/img_24.png)
 
 
 ## Cambios en el idioma
 
-##### Se ha agregado de forma automatica la traducción al español del login y del sing up
+##### Se ha agregado de forma automatica la traducción al español del login y del sing up, para poder opter a ambos
 ##### Antiguo login en ingles
 ![Login](https://github.com/leoneliker/First/blob/master/app/src/main/res/Imagenes/img_2.png)
 ##### Nuevo login en español
