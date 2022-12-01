@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Fundamentals</string>
-    <string name="singup" translatable="false">Tienes una cuenta? Registrate <a style="color:#FFAE37" href="">aqui</a></string>
+    <string name="singup" translatable="false">Tienes una cuenta? Registrate <a style="color:@color/teal_200" href="">aqui</a></string>
     <string name="usuario">Usuario</string>
     <string name="pass">Contraseña</string>
 </resources>
